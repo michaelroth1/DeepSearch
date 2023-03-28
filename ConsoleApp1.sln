@@ -1,0 +1,135 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32427.441
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1.csproj", "{D6750375-6C10-4992-BB4B-3E902FDE3A3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependencies", "Dependencies", "{5397651A-2249-4470-87AB-61C5541D5218}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StorageHandlerMD.RestClient", "..\..\..\..\..\WS-Dev\POH-Dev\StorageHandlerMD\StorageHandlerMD.RestClient\StorageHandlerMD.RestClient.csproj", "{D1F42020-9941-4B57-9C98-1D60E52FD0E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthorizationClient.Helper.Net6", "..\..\..\..\..\WS-Dev\POH-Dev\AuthorizationServer\AuthorizationClient.Helper.Net6\AuthorizationClient.Helper.Net6.csproj", "{7FD326A5-7904-4898-BAA5-74608B9E82AE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.WebApiHelper.Net6", "..\..\..\..\..\WS-Dev\POH-Dev\Common.WebApi\Common.WebApiHelper.Net6\Common.WebApiHelper.Net6.csproj", "{9CC418D2-8643-4ED2-A067-A05FEDA21FD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.WebApiCredentials", "..\..\..\..\..\WS-Dev\POH-Dev\Common.WebApi\Common.WebApiCredentials\Common.WebApiCredentials\Common.WebApiCredentials.csproj", "{D4102800-38A4-4139-88AF-1EC6922F6C8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{34E0F1D8-E8DD-4774-982C-1B2531727FF0}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6750375-6C10-4992-BB4B-3E902FDE3A3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6750375-6C10-4992-BB4B-3E902FDE3A3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6750375-6C10-4992-BB4B-3E902FDE3A3C}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D6750375-6C10-4992-BB4B-3E902FDE3A3C}.Debug|x64.Build.0 = Debug|Any CPU
+		{D6750375-6C10-4992-BB4B-3E902FDE3A3C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D6750375-6C10-4992-BB4B-3E902FDE3A3C}.Debug|x86.Build.0 = Debug|Any CPU
+		{D6750375-6C10-4992-BB4B-3E902FDE3A3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6750375-6C10-4992-BB4B-3E902FDE3A3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6750375-6C10-4992-BB4B-3E902FDE3A3C}.Release|x64.ActiveCfg = Release|Any CPU
+		{D6750375-6C10-4992-BB4B-3E902FDE3A3C}.Release|x64.Build.0 = Release|Any CPU
+		{D6750375-6C10-4992-BB4B-3E902FDE3A3C}.Release|x86.ActiveCfg = Release|Any CPU
+		{D6750375-6C10-4992-BB4B-3E902FDE3A3C}.Release|x86.Build.0 = Release|Any CPU
+		{D1F42020-9941-4B57-9C98-1D60E52FD0E0}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{D1F42020-9941-4B57-9C98-1D60E52FD0E0}.Debug|Any CPU.Build.0 = Debug|x64
+		{D1F42020-9941-4B57-9C98-1D60E52FD0E0}.Debug|x64.ActiveCfg = Debug|x64
+		{D1F42020-9941-4B57-9C98-1D60E52FD0E0}.Debug|x64.Build.0 = Debug|x64
+		{D1F42020-9941-4B57-9C98-1D60E52FD0E0}.Debug|x86.ActiveCfg = Debug|x86
+		{D1F42020-9941-4B57-9C98-1D60E52FD0E0}.Debug|x86.Build.0 = Debug|x86
+		{D1F42020-9941-4B57-9C98-1D60E52FD0E0}.Release|Any CPU.ActiveCfg = Release|x64
+		{D1F42020-9941-4B57-9C98-1D60E52FD0E0}.Release|Any CPU.Build.0 = Release|x64
+		{D1F42020-9941-4B57-9C98-1D60E52FD0E0}.Release|x64.ActiveCfg = Release|x64
+		{D1F42020-9941-4B57-9C98-1D60E52FD0E0}.Release|x64.Build.0 = Release|x64
+		{D1F42020-9941-4B57-9C98-1D60E52FD0E0}.Release|x86.ActiveCfg = Release|x86
+		{D1F42020-9941-4B57-9C98-1D60E52FD0E0}.Release|x86.Build.0 = Release|x86
+		{7FD326A5-7904-4898-BAA5-74608B9E82AE}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{7FD326A5-7904-4898-BAA5-74608B9E82AE}.Debug|Any CPU.Build.0 = Debug|x64
+		{7FD326A5-7904-4898-BAA5-74608B9E82AE}.Debug|x64.ActiveCfg = Debug|x64
+		{7FD326A5-7904-4898-BAA5-74608B9E82AE}.Debug|x64.Build.0 = Debug|x64
+		{7FD326A5-7904-4898-BAA5-74608B9E82AE}.Debug|x86.ActiveCfg = Debug|x64
+		{7FD326A5-7904-4898-BAA5-74608B9E82AE}.Debug|x86.Build.0 = Debug|x64
+		{7FD326A5-7904-4898-BAA5-74608B9E82AE}.Release|Any CPU.ActiveCfg = Release|x64
+		{7FD326A5-7904-4898-BAA5-74608B9E82AE}.Release|Any CPU.Build.0 = Release|x64
+		{7FD326A5-7904-4898-BAA5-74608B9E82AE}.Release|x64.ActiveCfg = Release|x64
+		{7FD326A5-7904-4898-BAA5-74608B9E82AE}.Release|x64.Build.0 = Release|x64
+		{7FD326A5-7904-4898-BAA5-74608B9E82AE}.Release|x86.ActiveCfg = Release|x64
+		{7FD326A5-7904-4898-BAA5-74608B9E82AE}.Release|x86.Build.0 = Release|x64
+		{9CC418D2-8643-4ED2-A067-A05FEDA21FD1}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{9CC418D2-8643-4ED2-A067-A05FEDA21FD1}.Debug|Any CPU.Build.0 = Debug|x64
+		{9CC418D2-8643-4ED2-A067-A05FEDA21FD1}.Debug|x64.ActiveCfg = Debug|x64
+		{9CC418D2-8643-4ED2-A067-A05FEDA21FD1}.Debug|x64.Build.0 = Debug|x64
+		{9CC418D2-8643-4ED2-A067-A05FEDA21FD1}.Debug|x86.ActiveCfg = Debug|x64
+		{9CC418D2-8643-4ED2-A067-A05FEDA21FD1}.Debug|x86.Build.0 = Debug|x64
+		{9CC418D2-8643-4ED2-A067-A05FEDA21FD1}.Release|Any CPU.ActiveCfg = Release|x64
+		{9CC418D2-8643-4ED2-A067-A05FEDA21FD1}.Release|Any CPU.Build.0 = Release|x64
+		{9CC418D2-8643-4ED2-A067-A05FEDA21FD1}.Release|x64.ActiveCfg = Release|x64
+		{9CC418D2-8643-4ED2-A067-A05FEDA21FD1}.Release|x64.Build.0 = Release|x64
+		{9CC418D2-8643-4ED2-A067-A05FEDA21FD1}.Release|x86.ActiveCfg = Release|x64
+		{9CC418D2-8643-4ED2-A067-A05FEDA21FD1}.Release|x86.Build.0 = Release|x64
+		{D4102800-38A4-4139-88AF-1EC6922F6C8A}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{D4102800-38A4-4139-88AF-1EC6922F6C8A}.Debug|Any CPU.Build.0 = Debug|x64
+		{D4102800-38A4-4139-88AF-1EC6922F6C8A}.Debug|x64.ActiveCfg = Debug|x64
+		{D4102800-38A4-4139-88AF-1EC6922F6C8A}.Debug|x64.Build.0 = Debug|x64
+		{D4102800-38A4-4139-88AF-1EC6922F6C8A}.Debug|x86.ActiveCfg = Debug|x86
+		{D4102800-38A4-4139-88AF-1EC6922F6C8A}.Debug|x86.Build.0 = Debug|x86
+		{D4102800-38A4-4139-88AF-1EC6922F6C8A}.Release|Any CPU.ActiveCfg = Release|x64
+		{D4102800-38A4-4139-88AF-1EC6922F6C8A}.Release|Any CPU.Build.0 = Release|x64
+		{D4102800-38A4-4139-88AF-1EC6922F6C8A}.Release|x64.ActiveCfg = Release|x64
+		{D4102800-38A4-4139-88AF-1EC6922F6C8A}.Release|x64.Build.0 = Release|x64
+		{D4102800-38A4-4139-88AF-1EC6922F6C8A}.Release|x86.ActiveCfg = Release|x86
+		{D4102800-38A4-4139-88AF-1EC6922F6C8A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D1F42020-9941-4B57-9C98-1D60E52FD0E0} = {5397651A-2249-4470-87AB-61C5541D5218}
+		{7FD326A5-7904-4898-BAA5-74608B9E82AE} = {5397651A-2249-4470-87AB-61C5541D5218}
+		{9CC418D2-8643-4ED2-A067-A05FEDA21FD1} = {5397651A-2249-4470-87AB-61C5541D5218}
+		{D4102800-38A4-4139-88AF-1EC6922F6C8A} = {5397651A-2249-4470-87AB-61C5541D5218}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B2C485A-597E-41B9-A26E-54D36C831CED}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://basf4dev.visualstudio.com/
+		SccProjectUniqueName0 = ..\\..\\..\\..\\..\\WS-Dev\\POH-Dev\\StorageHandlerMD\\StorageHandlerMD.RestClient\\StorageHandlerMD.RestClient.csproj
+		SccProjectTopLevelParentUniqueName0 = ConsoleApp1.sln
+		SccProjectName0 = $/MESFramework/POH-Dev/StorageHandlerMD/StorageHandlerMD.RestClient
+		SccAuxPath0 = https://basf4dev.visualstudio.com
+		SccLocalPath0 = ..\\..\\..\\..\\..\\WS-Dev\\POH-Dev\\StorageHandlerMD\\StorageHandlerMD.RestClient
+		SccProvider0 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName1 = ..\\..\\..\\..\\..\\WS-Dev\\POH-Dev\\AuthorizationServer\\AuthorizationClient.Helper.Net6\\AuthorizationClient.Helper.Net6.csproj
+		SccProjectTopLevelParentUniqueName1 = ConsoleApp1.sln
+		SccProjectName1 = $/MESFramework/POH-Dev/AuthorizationServer/AuthorizationClient.Helper.Net6
+		SccAuxPath1 = https://basf4dev.visualstudio.com
+		SccLocalPath1 = ..\\..\\..\\..\\..\\WS-Dev\\POH-Dev\\AuthorizationServer\\AuthorizationClient.Helper.Net6
+		SccProvider1 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName2 = ..\\..\\..\\..\\..\\WS-Dev\\POH-Dev\\Common.WebApi\\Common.WebApiHelper.Net6\\Common.WebApiHelper.Net6.csproj
+		SccProjectTopLevelParentUniqueName2 = ConsoleApp1.sln
+		SccProjectName2 = $/MESFramework/POH-Dev/Common.WebApi/Common.WebApiHelper.Net6
+		SccAuxPath2 = https://basf4dev.visualstudio.com
+		SccLocalPath2 = ..\\..\\..\\..\\..\\WS-Dev\\POH-Dev\\Common.WebApi\\Common.WebApiHelper.Net6
+		SccProvider2 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccProjectUniqueName3 = ..\\..\\..\\..\\..\\WS-Dev\\POH-Dev\\Common.WebApi\\Common.WebApiCredentials\\Common.WebApiCredentials\\Common.WebApiCredentials.csproj
+		SccProjectTopLevelParentUniqueName3 = ConsoleApp1.sln
+		SccProjectName3 = $/MESFramework/POH-Dev/Common.WebApi/Common.WebApiCredentials/Common.WebApiCredentials
+		SccAuxPath3 = https://basf4dev.visualstudio.com
+		SccLocalPath3 = ..\\..\\..\\..\\..\\WS-Dev\\POH-Dev\\Common.WebApi\\Common.WebApiCredentials\\Common.WebApiCredentials
+		SccProvider3 = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+	EndGlobalSection
+EndGlobal
